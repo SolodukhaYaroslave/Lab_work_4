@@ -52,7 +52,7 @@ namespace Lab_work_4
             try
             {
                 int searchItem = int.Parse(tbSearchItem.Text);
-                int num = search.BinarySearch(Array, searchItem);
+                int num = search.search(Array, searchItem, radioButton1.Checked);
                 if (!BoolSort)
                 {
                     btSort_Click(sender, e);
@@ -109,24 +109,36 @@ namespace Lab_work_4
     }
     class Search
     {
-        public int BinarySearch(int[] array, int Value)
+        public int search(int[] array, int Value, bool type)
         {
             int number = 0;
-            int i = BinarySearch(array, Value, 0, array.Length - 1);
-            while (i != -1)
+            if (type)
             {
-                if (i == array.Length - 1)
+                int i = BinarySearch(array, Value, 0, array.Length - 1);
+                while (i != -1)
                 {
+                    if (i == array.Length - 1)
+                    {
+                        number++;
+                        break;
+                    }
                     number++;
-                    break;
+                    array = ArrayRemoveAt(array, i);
+                    i = BinarySearch(array, Value, 0, array.Length - 1);
                 }
-                number++;
-                array = ArrayRemoveAt(array, i);
-                i = BinarySearch(array, Value, 0, array.Length - 1);
+            }
+            else
+            {
+                int i = LinearSearch(array, Value);
+                while (array[i] == Value)
+                {
+                    i++;
+                    number++;
+                }
             }
             return number;
         }
-        public int BinarySearch(int[] array, int Value, int i, int j)
+        static int BinarySearch(int[] array, int Value, int i, int j)
         {
             if (i > j)
             {
@@ -166,6 +178,19 @@ namespace Lab_work_4
                 }
             }
             return newArray;
+        }
+        static int LinearSearch(int[] array, int Value)
+        {
+            int m = -1;
+            for (int i = 0; i < array.Length - 1; i++)
+            {
+                if (array[i] == Value)
+                {
+                    m = i;
+                    break;
+                }
+            }
+            return m;
         }
     }
 }
