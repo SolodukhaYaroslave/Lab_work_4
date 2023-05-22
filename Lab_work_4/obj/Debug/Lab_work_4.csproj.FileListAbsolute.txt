@@ -1,0 +1,11 @@
+C:\Users\Acer\Documents\Yaroslave\Lab_work_4_git\Lab_work_4\bin\Debug\Lab_work_4.exe.config
+C:\Users\Acer\Documents\Yaroslave\Lab_work_4_git\Lab_work_4\bin\Debug\Lab_work_4.exe
+C:\Users\Acer\Documents\Yaroslave\Lab_work_4_git\Lab_work_4\bin\Debug\Lab_work_4.pdb
+C:\Users\Acer\Documents\Yaroslave\Lab_work_4_git\Lab_work_4\obj\Debug\Lab_work_4.csproj.AssemblyReference.cache
+C:\Users\Acer\Documents\Yaroslave\Lab_work_4_git\Lab_work_4\obj\Debug\Lab_work_4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\Documents\Yaroslave\Lab_work_4_git\Lab_work_4\obj\Debug\Lab_work_4.Form1.resources
+C:\Users\Acer\Documents\Yaroslave\Lab_work_4_git\Lab_work_4\obj\Debug\Lab_work_4.Properties.Resources.resources
+C:\Users\Acer\Documents\Yaroslave\Lab_work_4_git\Lab_work_4\obj\Debug\Lab_work_4.csproj.GenerateResource.cache
+C:\Users\Acer\Documents\Yaroslave\Lab_work_4_git\Lab_work_4\obj\Debug\Lab_work_4.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Documents\Yaroslave\Lab_work_4_git\Lab_work_4\obj\Debug\Lab_work_4.exe
+C:\Users\Acer\Documents\Yaroslave\Lab_work_4_git\Lab_work_4\obj\Debug\Lab_work_4.pdb
